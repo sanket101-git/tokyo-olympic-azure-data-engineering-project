@@ -1,0 +1,12 @@
+{
+	"name": "CoachesHttp",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/sanket101-git/tokyo-olympic-azure-data-engineering-project/azure1/data/Coaches.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
